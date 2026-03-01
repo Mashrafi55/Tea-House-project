@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Tea House</title>
 
     <!-- tailwind cdn -->
@@ -17,14 +18,14 @@
       referrerpolicy="no-referrer"
     />
   </head>
-  <body class="manrope_font">
+  <body class="manrope-font">
     <!-- banner section starts here -->
     <header class="mt-[68px]">
       <div
         class="parent-container flex flex-col md:flex-row justify-between items-center min-h-[200px] max-w-[1250px] mx-auto"
       >
         <div class="left_div">
-          <h1 class="manrope_font md:text-[80px] text-[40px] font-semibold">
+          <h1 class="md:text-[80px] text-[40px] font-semibold">
             It's good <br />tea time at The <br />Tea House
           </h1>
           <p class="text-[18px] text-[#777777] my-8">
@@ -122,5 +123,51 @@
         </div>
       </div>
     </section>
+    <!-- tea presented section -->
+    <div
+      class="parent_div flex flex-col md:flex-row max-w-[1250px] mx-auto gap-7 mt-[100px]"
+    >
+      <div class="left_div h-full md:w-1/2 grid grid-cols-2 grid-rows-3 gap-5">
+        <div
+          class="bg-gradient-to-r from-[#FF0000] to-[#FF8938] opacity-10 rounded-xl"
+        ></div>
+        <div
+          class="row-span-2 bg-[#e6a6231a] rounded-xl flex justify-center items-center p-6"
+        >
+          <img src="images/fresh-1.png" alt="" />
+        </div>
+        <div
+          class="row-span-2 bg-[#5776391A] rounded-xl flex justify-center items-center"
+        >
+          <img src="images/fresh-2.png" alt="" />
+        </div>
+        <div
+          class="bg-gradient-to-r from-[#D9D9D9] to-[#FFFFFF] rounded-xl"
+        ></div>
+      </div>
+      <div class="right_div h-full md:w-1/2">
+        <h1 class="text-[45px] font-bold">
+          Great Tea, Freshly <br />
+          Presented
+        </h1>
+        <p class="text-[#777777] mt-5 mb-7">
+          The meaning of gong cha is chanese is to provide the best tea to
+          emperor from all possessions . It represents the highest quality and
+          self expectation. Establishing in 2006, Gong cha had been deeply
+          appreciated by its custoers because of good words of mouth and unique
+          customized service orginated from Taiwan.
+        </p>
+        <h2 class="text-xl font-bold">Unique Taste</h2>
+        <p class="text-[#777777] mt-[10px] mb-5">
+          A Unique and different style from other teapots gives a <br />
+          luxurious and minimalist impression
+        </p>
+        <h2 class="text-xl font-bold">Premium Quality</h2>
+        <p class="text-[#777777] mt-[10px]">
+          Premium Quality that makes tea more elegant and more <br />
+          durable when you use it.
+        </p>
+      </div>
+    </div>
   </body>
 </html>
